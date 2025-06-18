@@ -1,5 +1,4 @@
 package com.srinath.ex_01_SeleniumBasic;
-
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
