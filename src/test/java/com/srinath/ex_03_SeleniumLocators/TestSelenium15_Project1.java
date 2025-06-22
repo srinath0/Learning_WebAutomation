@@ -39,8 +39,6 @@ public class TestSelenium15_Project1 {
         }
         WebElement error_msge = driver.findElement(By.className("invalid-reason"));
         Assert.assertEquals(error_msge.getText(),"The email address you entered is incorrect.");
-
-
         driver.quit();
     }
 }
